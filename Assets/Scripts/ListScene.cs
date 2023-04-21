@@ -11,12 +11,6 @@ public class ListScene : MonoBehaviour
     {
         GetScenes();
     }
-
-    void Start()
-    {
-        
-    }
-
     void GetScenes()
     {
         // Get the number of scenes in the Build Settings
@@ -74,6 +68,7 @@ public class ListScene : MonoBehaviour
         return sceneListManager.sceneDataList;
     }
 
+    //AgregarSistemadeGuardado
     public void QuitApplication()
     {
         Debug.LogWarning("Salio de la App");
