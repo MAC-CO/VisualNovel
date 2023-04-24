@@ -5257,6 +5257,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e76fc748bb608e24ba13d7578776c369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audios:
+  - name: Musica
+    audioFile: {fileID: 8300000, guid: dab2d3f3643085145a54bbf8caacf9e9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Click
+    audioFile: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &1254910991
 GameObject:
   m_ObjectHideFlags: 0
@@ -7673,7 +7686,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1693360699}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 276060022}
+        m_TargetAssemblyTypeName: ListScene, Assembly-CSharp
+        m_MethodName: GoToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Universidad
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1693360699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8970,7 +8995,6 @@ GameObject:
   - component: {fileID: 2095441829}
   - component: {fileID: 2095441828}
   - component: {fileID: 2095441827}
-  - component: {fileID: 2095441826}
   - component: {fileID: 2095441825}
   m_Layer: 5
   m_Name: CanvasOptions
@@ -8992,18 +9016,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropdownResolutions: {fileID: 1254910992}
---- !u!114 &2095441826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095441824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1e96b02cee6f9a45822312012029e67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2095441827
 MonoBehaviour:
   m_ObjectHideFlags: 0

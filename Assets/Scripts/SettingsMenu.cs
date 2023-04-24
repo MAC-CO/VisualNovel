@@ -11,7 +11,19 @@ public class SettingsMenu : MonoBehaviour
     [SerializeField]
     private TMP_Dropdown dropdownResolutions;
 
+    public static SettingsMenu instance;
+
+    private void Awake()
+    {
+        ResolutionsList();
+    }
+
     private void Start()
+    {
+
+    }
+
+    private void ResolutionsList()
     {
         resolutions = Screen.resolutions;
 
@@ -42,7 +54,6 @@ public class SettingsMenu : MonoBehaviour
         Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
-
 
     public void SetQuality(int qualityIndex)
     {
