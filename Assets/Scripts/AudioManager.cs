@@ -18,14 +18,14 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instancia == null)
-        {
-            instancia = this;
-            DontDestroyOnLoad(gameObject);
-        }else
-        {
-            Destroy(gameObject);
-        }
+        //if (instancia == null)
+        //{
+        //    instancia = this;
+        //    DontDestroyOnLoad(gameObject);
+        //}else
+        //{
+        //    Destroy(gameObject);
+        //}
 
         foreach (Audio a in audios)
         {
@@ -40,7 +40,7 @@ public class AudioManager : MonoBehaviour
     {
         //volumeValue = volumeSlider.value;
         //ChangeVolume();
-        //Play("Musica");
+        Play("Musica");
     }
 
     private void Update()

@@ -16,6 +16,7 @@ public class SettingsMenu : MonoBehaviour
     private void Awake()
     {
         ResolutionsList();
+        //this.gameObject.SetActive(false);
     }
 
     private void Start()
