@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/InitialMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Universidad.unity
+    path: Assets/Scenes/Universos.unity
     guid: 62e5e8207c9dcc84f8a7eb28f4570eef
+  - enabled: 1
+    path: Assets/Scenes/Universidad.unity
+    guid: 291d11e632fa001468ac865041c25153
   m_configObjects: {}
