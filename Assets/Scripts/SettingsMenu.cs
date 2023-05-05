@@ -11,16 +11,22 @@ public class SettingsMenu : MonoBehaviour
     [SerializeField]
     private TMP_Dropdown dropdownResolutions;
 
-    public static SettingsMenu instance;
+    private static SettingsMenu instance = null;
 
     private void Awake()
     {
         ResolutionsList();
-        //this.gameObject.SetActive(false);
-    }
 
-    private void Start()
-    {
+        if (instance is null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+            Debug.Log(instance);
+        }
+        else
+        {
+            Destroy(this);
+        }
 
     }
 
