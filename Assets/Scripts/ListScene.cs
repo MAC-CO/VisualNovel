@@ -25,10 +25,10 @@ public class ListScene : MonoBehaviour
         }
 
         // Print the scene data to the console
-        foreach (SceneData sceneData in sceneDataList)
-        {
-            Debug.Log(sceneData.ToString());
-        }
+        //foreach (SceneData sceneData in sceneDataList)
+        //{
+        //    Debug.Log(sceneData.ToString());
+        //}
     }
 
     public void GoToScene(int sceneIndex)
@@ -38,10 +38,10 @@ public class ListScene : MonoBehaviour
         {
             SceneManager.LoadScene(sceneDataList[sceneIndex].sceneName);
         }
-        else
-        {
-            Debug.LogError("Invalid scene index: " + sceneIndex);
-        }
+        //else
+        //{
+        //    Debug.LogError("Invalid scene index: " + sceneIndex);
+        //}
     }
 
     public void GoToScene(string sceneName)
@@ -51,10 +51,10 @@ public class ListScene : MonoBehaviour
         {
             SceneManager.LoadScene(sceneName);
         }
-        else
-        {
-            Debug.LogError("Invalid scene name: " + sceneName);
-        }
+        //else
+        //{
+        //    Debug.LogError("Invalid scene name: " + sceneName);
+        //}
     }
 
     public static List<SceneData> GetSceneDataList()
@@ -62,7 +62,7 @@ public class ListScene : MonoBehaviour
         ListScene sceneListManager = FindObjectOfType<ListScene>();
         if (sceneListManager == null)
         {
-            Debug.LogError("SceneListManager not found");
+            //Debug.LogError("SceneListManager not found");
             return null;
         }
         return sceneListManager.sceneDataList;
@@ -71,7 +71,7 @@ public class ListScene : MonoBehaviour
     //AgregarSistemadeGuardado
     public void QuitApplication()
     {
-        Debug.LogWarning("Salio de la App");
+        //Debug.LogWarning("Salio de la App");
         Application.Quit();
     }
 }

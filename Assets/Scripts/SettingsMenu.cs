@@ -21,7 +21,7 @@ public class SettingsMenu : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-            Debug.Log(instance);
+            //Debug.Log(instance);
         }
         else
         {
