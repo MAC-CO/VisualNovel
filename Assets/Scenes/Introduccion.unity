@@ -2298,7 +2298,6 @@ GameObject:
   - component: {fileID: 777934220}
   - component: {fileID: 777934221}
   - component: {fileID: 777934223}
-  - component: {fileID: 777934222}
   - component: {fileID: 777934224}
   - component: {fileID: 777934225}
   - component: {fileID: 777934227}
@@ -2419,6 +2418,10 @@ GameObject:
   - component: {fileID: 777934347}
   - component: {fileID: 777934346}
   - component: {fileID: 777934348}
+  - component: {fileID: 777934351}
+  - component: {fileID: 777934350}
+  - component: {fileID: 777934349}
+  - component: {fileID: 777934352}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2442,7 +2445,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -5
     y: 91.96907
-    width: 77.47253
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2468,11 +2471,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 27.016638, y: -20.369347}
+  scrollPos: {x: 29.090649, y: -29.154284}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 441
-  zoom: 0.9100001
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2481,8 +2484,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 777934289}
-  selectedCommands:
-  - {fileID: 777934293}
+  selectedCommands: []
   variables: []
   description: "Introducci\xF3n al Mundo\n"
   stepPause: 0
@@ -2523,10 +2525,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 3ab13a366128a3d44a85e4373977d934, type: 3}
+  musicClip: {fileID: 8300000, guid: 2bc030a30d609c04295ee1950b5547f3, type: 3}
   atTime: 0
   loop: 1
-  fadeDuration: 5
+  fadeDuration: 1
 --- !u!114 &777934211
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2583,7 +2585,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 105.10306
     y: 98.30931
-    width: 75.27472
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2598,7 +2600,6 @@ MonoBehaviour:
   - {fileID: 777934225}
   - {fileID: 777934224}
   - {fileID: 777934220}
-  - {fileID: 777934222}
   - {fileID: 777934237}
   - {fileID: 777934221}
   - {fileID: 777934240}
@@ -2710,7 +2711,7 @@ MonoBehaviour:
     pena\""
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2720,24 +2721,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &777934222
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777934206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 354fc07bf4474a14a97f7ef71999a60c, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
 --- !u!114 &777934223
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2841,7 +2824,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 98.9021
     y: 162.06702
-    width: 86.26373
+    width: 88
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2851,6 +2834,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 777934228}
+  - {fileID: 777934351}
   - {fileID: 777934231}
   - {fileID: 777934244}
   - {fileID: 777934311}
@@ -2910,7 +2894,7 @@ MonoBehaviour:
   storyText: "\xA1Elenio! \xBFTe encuentras bien? Te ves p\xE1lido"
   description: 
   character: {fileID: 72065260}
-  portrait: {fileID: 21300000, guid: 93490889c1eb64747bddad9bfe88fec3, type: 3}
+  portrait: {fileID: 21300000, guid: da52217de3a2f4244b7e40248ee0efc7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2937,7 +2921,7 @@ MonoBehaviour:
   storyText: "\"Humm, hoy el d\xEDa se siente diferente, tengo un mal presentimiento\""
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2964,7 +2948,7 @@ MonoBehaviour:
   storyText: Estoy bien....
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2991,7 +2975,7 @@ MonoBehaviour:
   storyText: "\xBFRaro?"
   description: 
   character: {fileID: 72065260}
-  portrait: {fileID: 21300000, guid: 93490889c1eb64747bddad9bfe88fec3, type: 3}
+  portrait: {fileID: 21300000, guid: da52217de3a2f4244b7e40248ee0efc7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3018,7 +3002,7 @@ MonoBehaviour:
   storyText: "Si, en el ambiente de-- \xBFHuh?"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3159,7 +3143,7 @@ MonoBehaviour:
   storyText: "\xBFNo notas algo raro hoy?"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3263,7 +3247,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 212.81335
     y: 167.11009
-    width: 86.26373
+    width: 87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3284,6 +3268,7 @@ MonoBehaviour:
   - {fileID: 777934319}
   - {fileID: 777934250}
   - {fileID: 777934255}
+  - {fileID: 777934350}
   - {fileID: 777934254}
   - {fileID: 777934256}
   suppressAllAutoSelections: 0
@@ -3305,7 +3290,7 @@ MonoBehaviour:
     algo que hacer."
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3357,7 +3342,7 @@ MonoBehaviour:
   storyText: ...
   description: 
   character: {fileID: 72065260}
-  portrait: {fileID: 21300000, guid: 93490889c1eb64747bddad9bfe88fec3, type: 3}
+  portrait: {fileID: 21300000, guid: da52217de3a2f4244b7e40248ee0efc7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3384,7 +3369,7 @@ MonoBehaviour:
   storyText: '"Tengo que apresurarme a alcanzarla"'
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3411,7 +3396,7 @@ MonoBehaviour:
   storyText: "Hum, est\xE1 bien te veo luego"
   description: 
   character: {fileID: 72065260}
-  portrait: {fileID: 21300000, guid: 93490889c1eb64747bddad9bfe88fec3, type: 3}
+  portrait: {fileID: 21300000, guid: da52217de3a2f4244b7e40248ee0efc7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3438,7 +3423,7 @@ MonoBehaviour:
   storyText: "Estar\xE9 bien"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3538,7 +3523,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 208.75775
     y: 227.79895
-    width: 89.56044
+    width: 92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3547,6 +3532,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 777934349}
   - {fileID: 777934321}
   - {fileID: 777934258}
   - {fileID: 777934259}
@@ -3636,7 +3622,7 @@ MonoBehaviour:
   storyText: "\"\xBFQu\xE9 est\xE1 haciendo?\""
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3664,7 +3650,7 @@ MonoBehaviour:
     tras nada malo\""
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3718,7 +3704,7 @@ MonoBehaviour:
   storyText: "\xBFQu\xE9 demonios?"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3802,7 +3788,7 @@ MonoBehaviour:
     que esconderme o me ver\xE1n!\""
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3858,7 +3844,7 @@ MonoBehaviour:
   storyText: "Maldita sea, \xBFQu\xE9 est\xE1 pasando? \xBFDe d\xF3nde salieron?"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3964,7 +3950,7 @@ MonoBehaviour:
   storyText: '"Ya no escucho nada, se debieron de haber ido ya"'
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4021,7 +4007,7 @@ MonoBehaviour:
   storyText: "\xBFSon \xE1ngeles?"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4075,7 +4061,7 @@ MonoBehaviour:
   storyText: "De saber que llegar\xEDa a este extremo, abr\xEDamos actuado..."
   description: 
   character: {fileID: 1555645973}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ed8c0a131a811eb4ea8bcf74ae30e0c6, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4129,7 +4115,7 @@ MonoBehaviour:
   storyText: "\xBFDe qu\xE9 est\xE1n hablando?"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4211,7 +4197,7 @@ MonoBehaviour:
     esto?"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4238,7 +4224,7 @@ MonoBehaviour:
   storyText: "\"\xA1Maldici\xF3n!\""
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4321,7 +4307,7 @@ MonoBehaviour:
     es encontrar sobrevivientes"
   description: 
   character: {fileID: 1555645973}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ed8c0a131a811eb4ea8bcf74ae30e0c6, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4387,7 +4373,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &777934288
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4431,7 +4417,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 323.19107
     y: 228.82982
-    width: 115.93406
+    width: 118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4440,6 +4426,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 777934352}
   - {fileID: 777934334}
   - {fileID: 777934288}
   - {fileID: 777934291}
@@ -4500,7 +4487,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &777934291
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4515,7 +4502,7 @@ MonoBehaviour:
   storyText: No, no puede ser verdad
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4527,7 +4514,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934292
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4555,7 +4542,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934293
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4583,7 +4570,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934294
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4598,7 +4585,7 @@ MonoBehaviour:
   storyText: "\xA1Elenio!"
   description: 
   character: {fileID: 72065260}
-  portrait: {fileID: 21300000, guid: 93490889c1eb64747bddad9bfe88fec3, type: 3}
+  portrait: {fileID: 21300000, guid: da52217de3a2f4244b7e40248ee0efc7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4610,7 +4597,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934295
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4625,7 +4612,7 @@ MonoBehaviour:
   storyText: "\xA1Selena!"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4637,7 +4624,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934296
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4652,7 +4639,7 @@ MonoBehaviour:
   storyText: "Todo paso tan r\xE1pido que aun no lo creo, \xBFQu\xE9 demonios?"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4664,7 +4651,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934297
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4691,7 +4678,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934298
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4706,7 +4693,7 @@ MonoBehaviour:
   storyText: "Estoy bien, \xBFD\xF3nde estabas? Me ten\xEDas preocupada"
   description: 
   character: {fileID: 72065260}
-  portrait: {fileID: 21300000, guid: 93490889c1eb64747bddad9bfe88fec3, type: 3}
+  portrait: {fileID: 21300000, guid: da52217de3a2f4244b7e40248ee0efc7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4718,7 +4705,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934299
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4733,7 +4720,7 @@ MonoBehaviour:
   storyText: "\xBFTe encuentras bien?"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4745,7 +4732,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934300
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4774,7 +4761,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934301
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4789,7 +4776,7 @@ MonoBehaviour:
   storyText: "\xBFEstas...wow"
   description: 
   character: {fileID: 72065260}
-  portrait: {fileID: 21300000, guid: 93490889c1eb64747bddad9bfe88fec3, type: 3}
+  portrait: {fileID: 21300000, guid: da52217de3a2f4244b7e40248ee0efc7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4801,7 +4788,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934302
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4830,7 +4817,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934303
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4846,7 +4833,7 @@ MonoBehaviour:
     no. Vayamos a un lugar m\xE1s escondido"
   description: 
   character: {fileID: 72065260}
-  portrait: {fileID: 21300000, guid: 93490889c1eb64747bddad9bfe88fec3, type: 3}
+  portrait: {fileID: 21300000, guid: da52217de3a2f4244b7e40248ee0efc7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4858,7 +4845,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934304
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4873,7 +4860,7 @@ MonoBehaviour:
   storyText: Selena por favor ya tuve suficiente de esto
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4885,7 +4872,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934305
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4900,7 +4887,7 @@ MonoBehaviour:
   storyText: "No, literalmente soy un \xE1ngel"
   description: 
   character: {fileID: 72065260}
-  portrait: {fileID: 21300000, guid: 93490889c1eb64747bddad9bfe88fec3, type: 3}
+  portrait: {fileID: 21300000, guid: da52217de3a2f4244b7e40248ee0efc7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4912,7 +4899,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934306
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4927,7 +4914,7 @@ MonoBehaviour:
   storyText: "Si, ya lo s\xE9. Eres demasiado buena para tu propio bien"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4939,7 +4926,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934307
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4954,7 +4941,7 @@ MonoBehaviour:
   storyText: "Soy un \xE1ngel"
   description: 
   character: {fileID: 72065260}
-  portrait: {fileID: 21300000, guid: 93490889c1eb64747bddad9bfe88fec3, type: 3}
+  portrait: {fileID: 21300000, guid: da52217de3a2f4244b7e40248ee0efc7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4966,7 +4953,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934308
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4981,7 +4968,7 @@ MonoBehaviour:
   storyText: "\xBFHuh?"
   description: 
   character: {fileID: 2094901418}
-  portrait: {fileID: 21300000, guid: fc947f3866b3a7440b95eb0341a6a1d0, type: 3}
+  portrait: {fileID: 21300000, guid: 18d389db0e5fd974787a5fabf258c490, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4993,7 +4980,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934309
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5008,7 +4995,7 @@ MonoBehaviour:
   storyText: "Hummm\u2026Elenio, tengo algo que decirte"
   description: 
   character: {fileID: 72065260}
-  portrait: {fileID: 21300000, guid: 93490889c1eb64747bddad9bfe88fec3, type: 3}
+  portrait: {fileID: 21300000, guid: da52217de3a2f4244b7e40248ee0efc7, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5020,7 +5007,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &777934310
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5039,7 +5026,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &777934311
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5054,7 +5041,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1751341016}
 --- !u!114 &777934312
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5069,7 +5056,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934313
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5084,7 +5071,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1108725630}
 --- !u!114 &777934314
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5099,7 +5086,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1751341016}
 --- !u!114 &777934315
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5114,7 +5101,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934316
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5129,7 +5116,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934317
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5144,7 +5131,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1751341016}
 --- !u!114 &777934318
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5159,7 +5146,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934319
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5174,7 +5161,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934320
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5189,7 +5176,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1751341016}
 --- !u!114 &777934321
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5204,7 +5191,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934322
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5219,7 +5206,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934323
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5234,7 +5221,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1108725630}
 --- !u!114 &777934324
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5249,7 +5236,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1108725630}
 --- !u!114 &777934325
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5264,7 +5251,7 @@ MonoBehaviour:
   sayDialog: {fileID: 771567042}
 --- !u!114 &777934326
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5279,7 +5266,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934327
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5294,7 +5281,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934328
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5309,7 +5296,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934329
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5324,7 +5311,7 @@ MonoBehaviour:
   sayDialog: {fileID: 771567042}
 --- !u!114 &777934330
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5339,7 +5326,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934331
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5354,7 +5341,7 @@ MonoBehaviour:
   sayDialog: {fileID: 771567042}
 --- !u!114 &777934332
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5369,7 +5356,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934333
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5384,7 +5371,7 @@ MonoBehaviour:
   sayDialog: {fileID: 771567042}
 --- !u!114 &777934334
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5399,7 +5386,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934335
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5414,7 +5401,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1751341016}
 --- !u!114 &777934336
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5429,7 +5416,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1751341016}
 --- !u!114 &777934337
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5444,7 +5431,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934338
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5459,7 +5446,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934339
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5474,7 +5461,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934340
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5489,7 +5476,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1751341016}
 --- !u!114 &777934341
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5504,7 +5491,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934342
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5519,7 +5506,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1751341016}
 --- !u!114 &777934343
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5534,7 +5521,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934344
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5549,7 +5536,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1751341016}
 --- !u!114 &777934345
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5564,7 +5551,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1751341016}
 --- !u!114 &777934346
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5579,7 +5566,7 @@ MonoBehaviour:
   sayDialog: {fileID: 12553915}
 --- !u!114 &777934347
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5594,7 +5581,7 @@ MonoBehaviour:
   sayDialog: {fileID: 1751341016}
 --- !u!114 &777934348
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5607,6 +5594,74 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 0
   sayDialog: {fileID: 12553915}
+--- !u!114 &777934349
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777934206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 140
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: a3b1ee2b30b0fb74c983d1677b56624f, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &777934350
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777934206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 139
+  indentLevel: 0
+--- !u!114 &777934351
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777934206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 138
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 91eb3eca4b08f844a8fa7fa25e5aec81, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &777934352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777934206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: f0ecdab6378d78b4db85ba6763fbdd28, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1 &794641438
 GameObject:
   m_ObjectHideFlags: 0
@@ -9256,18 +9311,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1342402347732058381, guid: bd91d1c191fea5e44bb8be94c10daa0a, type: 3}
-      propertyPath: portraits.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342402347732058381, guid: bd91d1c191fea5e44bb8be94c10daa0a, type: 3}
-      propertyPath: portraits.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 860b87fec056b8f4f88cb0aa3e9293cf, type: 3}
-    - target: {fileID: 1342402347732058381, guid: bd91d1c191fea5e44bb8be94c10daa0a, type: 3}
-      propertyPath: portraits.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: a43944a31a8c1304f8daf60a1af0c612, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd91d1c191fea5e44bb8be94c10daa0a, type: 3}
 --- !u!1001 &5263818320086328117
@@ -9337,10 +9380,6 @@ PrefabInstance:
     - target: {fileID: 5408381120118073262, guid: 6cf13ebcacf34694196d939b2eb60af9, type: 3}
       propertyPath: m_Name
       value: Elenio
-      objectReference: {fileID: 0}
-    - target: {fileID: 5408381120118073264, guid: 6cf13ebcacf34694196d939b2eb60af9, type: 3}
-      propertyPath: setSayDialog
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5408381120118073265, guid: 6cf13ebcacf34694196d939b2eb60af9, type: 3}
       propertyPath: m_RootOrder
